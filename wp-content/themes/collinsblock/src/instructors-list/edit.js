@@ -34,10 +34,35 @@ export default function Edit() {
 		<section {...useBlockProps()}>
 			<div>
 				<figure>
-					<img src="https://picsum.photos/400" alt="Random Picture" />
+					<img
+						src="https://picsum.photos/400"
+						alt="Random Image used as profile"
+					/>
 				</figure>
 				<h4>Instructor Streets</h4>
-				<p>Instruments:</p>
+				<p>Instruments: Flute, Recorder</p>
+			</div>
+
+			<div>
+				<figure>
+					<img
+						src="https://picsum.photos/400"
+						alt="Random Image used as profile"
+					/>
+				</figure>
+				<h4>Instructor Streets</h4>
+				<p>Instruments: Flute, Recorder</p>
+			</div>
+
+			<div>
+				<figure>
+					<img
+						src="https://picsum.photos/400"
+						alt="Random Image used as profile"
+					/>
+				</figure>
+				<h4>Instructor Streets</h4>
+				<p>Instruments: Flute, Recorder</p>
 			</div>
 		</section>
 	);
