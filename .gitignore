@@ -2,8 +2,8 @@
 /**.**
 # Except .gitignore & readme.md
 !.gitignore
-!.readme.md
-# !.readme.**
+!readme.md
+!.readme.**
 
 # Ignore wp-admin and wp-includes
 /wp-admin
