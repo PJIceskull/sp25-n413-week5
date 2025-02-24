@@ -4,7 +4,6 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-
 .wp-block-custom-blocks-main-nav {
 	background-color: #612940;
 	color: #fff;
@@ -17,4 +16,27 @@
 			list-style: none;
 		}
 	}
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeHeaderIMG {
+	background-image: url(https://images.pexels.com/photos/613813/pexels-photo-613813.jpeg);
+	background-color: #612940;
+	height: 300px;
+	width: 100%;
+}
+.homeHeaderIMG img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.profilePic {
+	background-color: #fff;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
 }

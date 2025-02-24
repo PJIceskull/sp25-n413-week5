@@ -1,8 +1,17 @@
 <!-- wp:template-part {"slug": "header"} /-->
 
-<!-- wp:heading {"level": 1} -->
-<h1>Music Academy</h1>
+<!-- wp:heading {"level": 1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+<h1 class="has-primary-color has-text-color has-link-color">Music Academy</h1>
 <!-- /wp:heading -->
+
+<!-- wp:image {"className":"homeHeaderIMG"} -->
+<figure class="wp-block-image">
+	<img
+		src="https://images.pexels.com/photos/613813/pexels-photo-613813.jpeg"
+		alt="Header Image of Jazz Band Playing"
+	/>
+</figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 <p>
@@ -12,3 +21,52 @@
 	vel?
 </p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Featured Instructors</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group">
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+	<div class="wp-block-group">
+		<!-- wp:image {"className":"profilePic"} -->
+		<figure class="wp-block-image profilePic">
+			<img
+				src="https://hips.hearstapps.com/hmg-prod/images/wolfgang-mozart-gettyimages-56464959.jpg"
+				alt="Contructor Picture"
+			/>
+		</figure>
+		<!-- /wp:image -->
+
+		<!-- wp:heading {"level":3, "style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+		<h3
+			class="wp-block-heading has-primary-color has-text-color has-link-color"
+		>
+			Wolfgang Amadeus Mozart
+		</h3>
+		<!-- /wp:heading -->
+	</div>
+	<!-- /wp:group -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+	<div class="wp-block-group">
+		<!-- wp:image {"className":"profilePic"} -->
+		<figure class="wp-block-image profilePic">
+			<img
+				src="https://hips.hearstapps.com/hmg-prod/images/beethoven-600x600.jpg"
+				alt="Contructor Picture"
+			/>
+		</figure>
+		<!-- /wp:image -->
+
+		<!-- wp:heading {"level":3, "style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
+		<h3
+			class="wp-block-heading has-primary-color has-text-color has-link-color"
+		>
+			Ludwig van Beethoven
+		</h3>
+		<!-- /wp:heading -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->

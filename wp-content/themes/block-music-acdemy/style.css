@@ -4,3 +4,32 @@ Author: Pierce Issah
 Description: Theme for Collins Music Academy, showcasing the potential instructors, lessons, and teachings.
 Version: 0.1
 */
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeHeaderIMG {
+	background-image: url(https://images.pexels.com/photos/613813/pexels-photo-613813.jpeg);
+	background-color: #612940;
+	height: 300px;
+	width: 100%;
+}
+.homeHeaderIMG img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.profilePic {
+	background-color: #fff;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.profilePic img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
