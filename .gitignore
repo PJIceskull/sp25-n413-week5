@@ -4,6 +4,7 @@
 !.gitignore
 !readme.md
 !.readme.**
+!export
 
 # Ignore wp-admin and wp-includes
 /wp-admin
