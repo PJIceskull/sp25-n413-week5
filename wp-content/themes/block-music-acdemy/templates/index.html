@@ -23,7 +23,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<h2 class="wp-block-heading">Featured Instructors</h2>
+<h2
+	class="wp-block-heading has-text-align-center has-primary-color has-text-color has-link-color"
+>
+	Featured Instructors
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -71,25 +75,29 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:image -->
-<figure class="wp-block-image">
-	<img
-		src="https://images.pexels.com/photos/634021/pexels-photo-634021.jpeg"
-		alt=""
-	/>
-</figure>
-<!-- /wp:image -->
+<!-- wp:group {"className": "testimonialCard"} -->
+<div class="wp-block-group testimonialCard">
+	<!-- wp:image {"className": "tesiPicture"} -->
+	<figure class="wp-block-image tesiPicture">
+		<img
+			src="https://images.pexels.com/photos/634021/pexels-photo-634021.jpeg"
+			alt=""
+		/>
+	</figure>
+	<!-- /wp:image -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Johhny Westfield</h3>
-<!-- /wp:heading -->
+	<!-- wp:heading {"level":3} -->
+	<h3 class="wp-block-heading">Johhny Westfield</h3>
+	<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio recusandae,
-	perferendis iusto nostrum sapiente voluptate reiciendis labore maiores nam, ea
-	aspernatur. Eos quisquam officiis maxime illum quaerat, voluptas deleniti
-	animi, beatae, ex a in odio eveniet inventore quasi nostrum voluptates.
-	Pariatur quaerat tempore inventore nulla quo saepe, itaque vel fugit!
-</p>
-<!-- /wp:paragraph -->
+	<!-- wp:paragraph -->
+	<p>
+		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio recusandae,
+		perferendis iusto nostrum sapiente voluptate reiciendis labore maiores nam,
+		ea aspernatur. Eos quisquam officiis maxime illum quaerat, voluptas deleniti
+		animi, beatae, ex a in odio eveniet inventore quasi nostrum voluptates.
+		Pariatur quaerat tempore inventore nulla quo saepe, itaque vel fugit!
+	</p>
+	<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
